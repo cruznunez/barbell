@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barbell Calculator</title>
+  <meta name="viewport" content="initial-scale=1, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" type="image/x-icon" href="logo.png">
+  <link rel="stylesheet" media="all" href="main.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="container hidden">
+    <span class="logo-container">
+      <a href="/barbell" class="icon-flex"></a>
+      <a href="#" class="welcome">Welcome</a>
+    </span>
+
+    <header>ENTER A NUMBER</header>
+
+    <input type="text" id="weight" value="0">
+
+    <table class="results">
+      <tbody>
+        <tr class="titles">
+          <td>Left</td>
+          <td id="bar-lbl">Barbell</td>
+          <td>Right</td>
+        </tr>
+        <tr style="height: 14vh;">
+          <td id="left">0</td>
+          <td id="bar">45</td>
+          <td id="right">0</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="num-pad">
+      <tbody>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>&lt;</td>
+          <td>0</td>
+          <td>&lt;&lt;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
